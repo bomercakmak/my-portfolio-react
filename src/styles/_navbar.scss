@@ -1,0 +1,23 @@
+.NavBar {
+    height: 100vh;
+    .nav{
+        height: 100%;
+        display:flex;
+        flex-direction:column;
+        justify-content: space-between;
+        align-items: center;
+
+        .profile{
+            width: 100%;
+            text-align: center;
+            margin-top:1rem;
+            border-bottom: 1px solid #2e344e;
+            img{
+                width:70%;
+                border-radius:100%;
+                border: 5px solid #2e344e;
+                margin-bottom:1rem;
+            }
+        }
+    }
+}
