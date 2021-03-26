@@ -1,6 +1,7 @@
 @import './styles/layout';
 @import './styles/navbar';
 @import './styles/typography';
+@import './styles/title';
 
 
 *{
@@ -14,4 +15,7 @@ body {
     color: #a4acc4;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 1.2rem;
+}
+span{
+    color: #037FFF;
 }
