@@ -23,17 +23,17 @@ function HomePage() {
           ante ipsum.
         </p>
         <div className="icons">
-          <Link>
-            <FontAwesomeIcon icon={faGithub} />
+          <Link className="icon-holder">
+            <FontAwesomeIcon icon={faGithub} className="icon gh"/>
           </Link>
-          <Link>
-            <FontAwesomeIcon icon={faLinkedin} />
+          <Link className="icon-holder">
+            <FontAwesomeIcon icon={faLinkedin} className="icon lk"/>
           </Link>
-          <Link>
-            <FontAwesomeIcon icon={faWhatsapp} />
+          <Link className="icon-holder">
+            <FontAwesomeIcon icon={faWhatsapp} className="icon wh"/>
           </Link>
-          <Link>
-            <FontAwesomeIcon icon={faFacebook} />
+          <Link className="icon-holder">
+            <FontAwesomeIcon icon={faFacebook} className="icon fb"/>
           </Link>
         </div>
       </header>
