@@ -8,8 +8,8 @@ const Skills = () => {
   return (
     <div className="pt-3 pb-3" id="skills">
       <h1 className="text-center font-details-b pb-4">TECH SKILLS</h1>
-      <CardDeck>
-        <Row className="d-flex justify-content-around">
+      <CardDeck className="d-flex justify-content-around" >
+        <Row className="d-flex ">
           {/* Frontend */}
           <Col md={4}>
             <Card className="card focus mt-2 mb-2">
