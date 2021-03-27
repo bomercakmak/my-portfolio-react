@@ -1,0 +1,31 @@
+.card{
+    background-color:  #037fff;
+    margin-bottom: .8rem !important;
+}
+
+.white{
+    color: white;
+}
+
+.tech-name:hover{
+  color: #10131C !important;
+}
+.focus {
+    transition: transform 0.5s;
+  }
+  
+  .focus:hover {
+    transform: scale(1.05);
+    background-color:  #188bff ;
+  }
+  
+  .card-title {
+    font-size: 1.8em;
+    font-weight: 500;
+  }
+  
+  .image-style {
+    width: 2.5em;
+  }
+  
+

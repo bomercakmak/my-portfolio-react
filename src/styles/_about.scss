@@ -3,7 +3,7 @@
   margin-top: 3rem;
   
   .img {
-    width: 210%;
+    width:145%;
     height: 50vh;
     img {
       width: 100%;
@@ -26,7 +26,8 @@
 .about-details {
   display: flex;
   p {
-    padding: 0.4rem, 0;
+
+    margin-bottom: 0.25rem !important;
   }
   .right-section {
     margin-left: 1.5rem;

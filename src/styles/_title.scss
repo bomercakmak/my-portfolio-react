@@ -1,8 +1,9 @@
 .Title{
     text-transform: uppercase;
-    font-size:2rem;
+    font-size:3rem !important;
     color:white;
     position: relative;
+    margin-top: 2rem;
     padding-bottom:1rem;
     letter-spacing:2px;
     &::before{
