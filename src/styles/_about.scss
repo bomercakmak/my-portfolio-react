@@ -1,34 +1,63 @@
-.ImageSection{
-    display: flex;
-    margin-top:3rem;
-    .img{
-        width: 210%;
-        height: 50vh;
-        img{
-            width:100%;
-            object-fit: cover;
-            height: 100%;
-        }
+.ImageSection {
+  display: flex;
+  margin-top: 3rem;
+  
+  .img {
+    width: 210%;
+    height: 50vh;
+    img {
+      width: 100%;
+      object-fit: cover;
+      height: 100%;
     }
+  }
 
-    .about-info{
-        margin-left: 2rem;
-        h4{
-            font-size:2rem;
-        }
-        .about-text{
-            padding:1rem 0;
-        }
+  .about-info {
+    margin-left: 2rem;
+    h4 {
+      font-size: 2rem;
     }
+    .about-text {
+      padding: 0.95rem 0;
+    }
+  }
 }
 
-.about-details{
-   display: flex;
-   p{
-       padding: .4rem,0;
-   }
-   .right-section{
-       margin-left: 1.5rem ;
-   }
+.about-details {
+  display: flex;
+  p {
+    padding: 0.4rem, 0;
+  }
+  .right-section {
+    margin-left: 1.5rem;
+  }
 }
 
+.button {
+  padding: 1rem 2rem;
+  background-color: #037fff;
+  outline: none;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 2px;
+  margin-top: 1rem;
+  position: relative;
+  &::after{
+      position: absolute;
+      content:"";
+      width:0;
+      height: .3rem;
+      left: 0;
+      bottom: 0;
+      background-color:white;
+      transition:all 0.4s ease-in-out;
+  }
+  &:hover::after{
+      width:100%;
+  }
+ 
+}
