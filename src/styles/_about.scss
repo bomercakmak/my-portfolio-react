@@ -2,7 +2,7 @@
     display: flex;
     margin-top:3rem;
     .img{
-        width: 100%;
+        width: 210%;
         height: 50vh;
         img{
             width:100%;
@@ -16,5 +16,19 @@
         h4{
             font-size:2rem;
         }
+        .about-text{
+            padding:1rem 0;
+        }
     }
 }
+
+.about-details{
+   display: flex;
+   p{
+       padding: .4rem,0;
+   }
+   .right-section{
+       margin-left: 1.5rem ;
+   }
+}
+
