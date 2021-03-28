@@ -1,0 +1,33 @@
+.ProjectPage{
+
+}
+
+.projects{
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 2rem;
+    
+    .project{
+        .image-data{
+            img{
+                width: 100%;
+                height: 30vh;
+                object-fit: cover;
+            }
+        }
+        .hover-items{
+            list-style: none;
+        }
+        h5{
+            font-size: 1.7rem;
+            font-weight:400;
+            color: white;
+            transition: all .3 ease-in-out;
+            &:hover{
+                color:#037FFF;
+                cursor: pointer;
+            }
+        }
+    }
+}
