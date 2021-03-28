@@ -1,9 +1,12 @@
 import React from 'react'
 import allBlogs from '../Components/allBlogs'
+import Title from '../Components/Title'
 
 function BlogsPage() {
     return (
         <div className="BlogsPage">
+         <Title title={"About Me"} span={"About Me"}/>
+
             {
             allBlogs.map((blog) => {
                 return <div className="blog" key={blog.id}>
@@ -13,7 +16,6 @@ function BlogsPage() {
                             {blog.title}
                         </a>
                         <div className="date-icon">
-                            
                         </div>
                     </div>
 
