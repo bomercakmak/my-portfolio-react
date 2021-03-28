@@ -78,4 +78,4 @@ const projects = [
     }
 ]
 
-export default portfolios;
+export default projects;
