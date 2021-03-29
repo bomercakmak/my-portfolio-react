@@ -23,7 +23,7 @@ function HomePage() {
           ante ipsum.
         </p>
         <div className="icons">
-          <Link className="icon-holder">
+          <Link className="icon-holder" to="/www.google.com">
             <FontAwesomeIcon icon={faGithub} className="icon gh"/>
           </Link>
           <Link className="icon-holder">

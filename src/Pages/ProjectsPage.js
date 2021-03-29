@@ -4,6 +4,7 @@ import Categories from "../Components/Categories";
 import MenuItems from "../Components/MenuItems";
 import projects from "../Components/allProjects";
 
+
 function ProjectsPage() {
     const [categories, setCategories] = useState(null)
     const [menuItems,setMenuItems] = useState(projects)

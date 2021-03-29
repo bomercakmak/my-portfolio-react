@@ -4,6 +4,8 @@ import port3 from '../img/portImages/port2.jpg';
 import port4 from '../img/portImages/port3.jpg';
 import port6 from '../img/portImages/port5.jpg';
 import port7 from '../img/portImages/port6.jpg';
+import burger from '../img/portImages/Burgerbulder (1).gif'
+
 
 const projects = [
     {
@@ -13,7 +15,7 @@ const projects = [
         link2: 'www.github.com',
         icon1: 'G',
         icon2: 'Y',
-        image: port1,
+        image: burger,
         title: 'Autodesk Maya'
     },
     {
