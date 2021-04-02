@@ -5,7 +5,9 @@
         background-color: #191D2B;
         position: fixed;
         border-right: 1px solid #2e344e;
-
+        @media screen and (max-width:1000px){
+            transform:translateX(-100%)
+        }
     }
 
     .main-content{
@@ -19,5 +21,20 @@
         .content{
             margin: 3rem 10rem;
         }
+        @media screen and (max-width:1000px){
+            margin-left: 0;
+            width: 100%;
+        }
+       
     }
+}
+
+.nav-btn{
+    position: absolute;
+    z-index: 10;
+    right:10%;
+    top:10%;
+    background-color: red;
+    width:5rem;
+    height: 5rem;
 }
