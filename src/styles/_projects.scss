@@ -78,3 +78,31 @@
         }
     }
 }
+
+.btn-port{
+    padding:.6rem 1.5rem;
+    background-color:#0381ff;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    font-size:inherit;
+    font-family: inherit;
+    color: white;
+    margin-bottom: 1rem;
+    &:not(:last-child){
+        margin-right: 1rem;
+    }
+    &:hover{
+        background-color:white;
+        color:#0381ff;
+    }
+}
+
+.buttons{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin:4rem 10rem;
+    flex-wrap: wrap;
+
+}

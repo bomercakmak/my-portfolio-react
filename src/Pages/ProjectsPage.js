@@ -12,6 +12,10 @@ function ProjectsPage() {
     const [menuItems,setMenuItems] = useState(projects)
 
     const filter = (category) => {
+      if(category === 'All'){
+        setMenuItems(projects);
+        return
+      }
         const filteredData = projects.filter((item) =>{
           return item.category === category
         })
