@@ -4,10 +4,18 @@
     height: 100vh;
     background-color: #191d2b;
     position: fixed;
+    z-index: 11;
     border-right: 1px solid #2e344e;
     @media screen and (max-width: 1000px) {
       transform: translateX(-100%);
     }
+  }
+
+  .nav-toggle {
+    @media screen and (max-width: 1000px) {
+        transform: translateX(0);
+        width:30%;
+      }
   }
 
   .main-content {
@@ -36,7 +44,7 @@
   width: 5rem;
   height: 5rem;
   display: none;
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
@@ -47,20 +55,19 @@
     width: 80%;
     background-color: #037fff;
     pointer-events: none;
-    display:none;
+    display: none;
     border-radius: 20px;
-    &:not(:last-child){
-        margin-bottom: .5rem;
-       
+    &:not(:last-child) {
+      margin-bottom: 0.5rem;
     }
-
   }
+
   @media screen and (max-width: 1000px) {
     display: block;
     .lines-1,
     .lines-2,
     .lines-3 {
-        display:block;
+      display: block;
     }
   }
 }
