@@ -1,7 +1,13 @@
 .card{
     background-color:  #037fff;
     margin-bottom: .8rem !important;
+    width:100%;
 }
+/* .col-content{
+  width: 400px;
+  display: flex;
+  justify-content: center;
+} */
 
 .white{
     color: white;
