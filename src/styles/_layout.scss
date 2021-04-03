@@ -7,14 +7,19 @@
     z-index: 11;
     border-right: 1px solid #2e344e;
     @media screen and (max-width: 1000px) {
-      transform: translateX(-100%);
+        transition: all .2s  ease-in-out;
+        transform: translateX(-100%);
+        width:30%;
+    }
+    @media screen and (max-width: 411px) {
+        width:50%;
     }
   }
 
   .nav-toggle {
     @media screen and (max-width: 1000px) {
+      transition: all .2s  ease-in-out;
         transform: translateX(0);
-        width:30%;
       }
   }
 
@@ -39,8 +44,8 @@
 .nav-btn {
   position: absolute;
   z-index: 10;
-  right: 10%;
-  top: 10%;
+  right: 8%;
+  top: 5%;
   width: 5rem;
   height: 5rem;
   display: none;

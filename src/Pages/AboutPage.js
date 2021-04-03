@@ -9,7 +9,9 @@ function AboutPage() {
             <Title title={"About Me"} span={"About Me"}/>
             <ImageSection/>
             <Title title={"Skills"} span={"Skills"}/>
+            <div className="skillsContainer">
             <Skills/>
+            </div>
         </div>
     )
 }
