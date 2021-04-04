@@ -13,8 +13,8 @@ const projects = [
         category: 'Animation',
         link1: 'www.youtube.com',
         link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
+        icon1: 'SOURCE \n CODE',
+        icon2: 'LIVE \n WEBSITE',
         image: burger,
         title: 'Autodesk Maya'
     },

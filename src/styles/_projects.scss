@@ -46,18 +46,25 @@
                 transform: translate(-50%, -50%);
                 padding:1rem 2rem;
                 visibility:hidden;
+                
                 li{
-                    a{  
-                       
-                        padding:1rem;
-                        text-decoration: none;
-                        font-family: inherit;
-                        border-radius: 10px;
-                        background-color: #10121B;
-                        color: white;
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);;
+                    .aDiv{
                         &:not(:last-child){
                             margin-right: 2rem;
                         }
+                        padding:1rem;
+                        background-color: #10121B;
+                        border-radius: 10px;
+                        text-align: center;
+
+                    }
+                    a{  
+                        text-decoration: none;
+                        font-family: inherit;
+                        color: white;
+                       
                     }
                 }
 
