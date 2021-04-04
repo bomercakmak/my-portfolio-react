@@ -28,6 +28,16 @@
 .ContactPage{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    margin-bottom: 6rem;
+    @media screen and (max-width:1270px){
+    grid-template-columns: repeat(1,1fr);
+    .map-sect{
+        width:100%;
+        height: 50vh;
+        margin-bottom: 1rem;
+    }
+
+    }
     .contact-sect{
         width: 100%;
     }
