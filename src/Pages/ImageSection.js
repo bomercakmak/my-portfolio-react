@@ -1,5 +1,6 @@
 import React from "react";
 import about from "../img/about.jpg";
+import cv from "../cv/CV.pdf"
 function ImageSection() {
   return (
     <div className="ImageSection">
@@ -36,7 +37,7 @@ function ImageSection() {
             <p>: Bonn Germany</p>
           </div>
         </div>
-        <button className="button" >Download My CV</button>
+       <a href={cv} download="CV-Bahadir-Omer-Cakmak" ><button className="button">Download My CV</button></a> 
       </div>
     </div>
   );
