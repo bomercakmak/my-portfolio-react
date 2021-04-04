@@ -36,7 +36,7 @@ function NavBar() {
           </li>
         </ul>
         <footer className="footer">
-          <p>@2021 Bahadir Omer Cakmak</p>
+           <a href="https://github.com/bomercakmak"> Copyright &copy; {new Date().getFullYear()} {<br/>} Bahadir Omer Cakmak </a>
         </footer>
       </nav>
     </div>

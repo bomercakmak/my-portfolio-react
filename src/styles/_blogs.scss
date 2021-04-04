@@ -2,6 +2,12 @@
     display:grid;
     grid-template-columns: repeat(2,1fr);
     grid-gap:2.5rem;
+    @media screen and (max-width:1080px){
+    grid-template-columns: repeat(1,1fr);
+    grid-gap:2rem;
+        
+    }
+       
     .blog{
         background-color: #161925;
         width:100%;

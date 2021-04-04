@@ -23,16 +23,16 @@ function HomePage() {
           ante ipsum.
         </p>
         <div className="icons">
-          <Link className="icon-holder" to="/www.google.com">
+          <a className="icon-holder" href="https://github.com/bomercakmak" target="_blank">
             <FontAwesomeIcon icon={faGithub} className="icon gh"/>
-          </Link>
-          <Link className="icon-holder">
+          </a>
+          <a className="icon-holder" href="https://www.linkedin.com/in/bahadir-omer-cakmak-4b4036204/" target="_blank">
             <FontAwesomeIcon icon={faLinkedin} className="icon lk"/>
-          </Link>
-          <Link className="icon-holder">
+          </a>
+          <Link className="icon-holder" href="https://wa.me/+48517220852" target="_blank">
             <FontAwesomeIcon icon={faWhatsapp} className="icon wh"/>
           </Link>
-          <Link className="icon-holder">
+          <Link className="icon-holder" href="https://www.facebook.com/profile.php?id=100007726066142" target="_blank">
             <FontAwesomeIcon icon={faFacebook} className="icon fb"/>
           </Link>
         </div>

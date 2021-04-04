@@ -59,10 +59,15 @@
 
         .footer{
             width:100%;
+            text-align:center;
             border-top: 1px solid #2e344e;
-            p{
+            a{
+                color:inherit;
+                width:55%;
+                font-size: 1.1rem;
                 text-align:center;
                 padding:1rem 0; 
+        
             }
 
         }
