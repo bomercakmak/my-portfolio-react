@@ -14,9 +14,9 @@ function MenuItems({ menuItems }) {
                   <div className="aDiv">
                   <a href={item.link1}>{item.icon1}</a>
                   </div>
-                  <div className="aDiv">
+                  {item.icon2 === "" ? null : (<div className="aDiv">
                   <a href={item.link2}>{item.icon2}</a>
-                  </div>
+                  </div>) } 
                 </li>
               </ul>
             </div>

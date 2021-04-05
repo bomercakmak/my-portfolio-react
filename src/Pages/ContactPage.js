@@ -13,6 +13,7 @@ function ContactPage() {
       <div className="ContactPage">
         <div className="map-sect">
           <iframe
+            title="Map"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d149684.61726839762!2d7.0478417793708505!3d50.67306913881625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bee19f7ccbda49%3A0x86dbf8c6685c9617!2sBonn!5e0!3m2!1str!2sde!4v1616957526013!5m2!1str!2sde"
             width="600"
             height="450"

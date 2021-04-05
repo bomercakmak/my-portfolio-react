@@ -7,6 +7,7 @@ import AboutPage from "./Pages/AboutPage";
 import ProjectsPage from "./Pages/ProjectsPage";
 import ContactPage from "./Pages/ContactPage";
 import BlogsPage from "./Pages/BlogsPage";
+import Backdrop from "./Components/Backdrop";
 
 
 function App() {
@@ -14,10 +15,17 @@ function App() {
   const navClick = () => {
     setNavToggle(!navToggle)
   };
+
+  const click = () => {
+    console.log("False");
+    setNavToggle(false);
+  }
   return (
     <div className="App">
+      
+      <Backdrop navStatus={navToggle} clicked={click}/>
       <div className={`sidebar ${navToggle ? "nav-toggle" : ""}`}>
-        <NavBar />
+        <NavBar click={click}/>
       </div>
       <div className="nav-btn" onClick={navClick}>
         <div className="lines-1"></div>

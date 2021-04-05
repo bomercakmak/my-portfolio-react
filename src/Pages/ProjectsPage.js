@@ -10,7 +10,7 @@ const allCategories = ['All', ...new Set(projects.map(item => item.category))]
 function ProjectsPage() {
   let listedProjects = projects.sort((a, b) => b.id - a.id);
 
-  const [categories, setCategories] = useState(allCategories)
+  const [categories] = useState(allCategories)
     const [menuItems,setMenuItems] = useState(listedProjects)
     const filter = (category) => {
       if(category === 'All'){
