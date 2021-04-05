@@ -1,7 +1,10 @@
-import burger from '../img/portImages/Burgerbulder (1).gif'
-import rockPaperScissors from '../img/portImages/rock-paper-scissors-game.gif'
+import burger from '../img/portImages/ezgif.com-gif-maker (1).gif'
+import rockPaperScissors from '../img/portImages/ezgif.com-gif-maker.gif'
 import searchUsersGitHub from '../img/portImages/Search-Users-GitHub-REST-API-gif.gif'
 import taskManager from '../img/portImages/Task-Manager (1).gif'
+import node from '../img/portImages/node2.jpeg'
+import aspNet from '../img/portImages/asp-net-and-sql-developer-salary.png'
+import chatApp from '../img/portImages/chatApp.gif'
 
 
 const projects = [
@@ -56,7 +59,7 @@ const projects = [
         link2: '',
         icon1: 'SOURCE \n CODE',
         icon2: '',
-        image: taskManager,
+        image: aspNet,
         title: 'Food Recipes Website ASP.NET',
         info:"HTML5, CSS3, C#, ASP.NET, Microsoft SQL Server"
     },
@@ -89,9 +92,42 @@ const projects = [
         link2: '',
         icon1: 'SOURCE \n CODE',
         icon2: '',
-        image: taskManager,
+        image: node,
         title: 'Stack Overflow Question Answer Backend Clone',
         info:"JavaScript, Node.js, Express, MongoDB, Mongoose, JWT, Multer, Nodemailer"
+    },
+    {
+        id: 9,
+        category: "React JS",
+        link1: 'https://github.com/bomercakmak/chat-application-react',
+        link2: 'https://bomercakmak-chat-app.netlify.app/',
+        icon1: 'SOURCE \n CODE',
+        icon2: 'LIVE \n WEBSITE',
+        image: chatApp,
+        title: 'Chat Application React JS',
+        info:"HTML5, CSS3, JavaScript, Web Storage API, Chat Engine, React JS"
+    },
+    {
+        id: 10,
+        category: "React JS",
+        link1: 'https://github.com/bomercakmak/burger-builder-react',
+        link2: 'https://bomercakmak-burger-builder.netlify.app/',
+        icon1: 'SOURCE \n CODE',
+        icon2: 'LIVE \n WEBSITE',
+        image: burger,
+        title: 'Burger Builder React JS',
+        info:"HTML5, CSS3, JavaScript, Web Storage API, React JS, React Router, Redux, Firebase"
+    },
+    {
+        id: 11,
+        category: "React JS",
+        link1: 'https://github.com/bomercakmak/covid-19-tracker-react',
+        link2: 'https://bomercakmak-covid-19-tracker.netlify.app/',
+        icon1: 'SOURCE \n CODE',
+        icon2: 'LIVE \n WEBSITE',
+        image: node,
+        title: 'COVID-19 Tracker React JS',
+        info:"HTML5, CSS3, JavaScript, React JS, Charts.js, Material UI"
     },
    
 ]
