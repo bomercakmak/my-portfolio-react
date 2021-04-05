@@ -23,7 +23,7 @@ function MenuItems({ menuItems }) {
             <h5>
                 {item.title}
             </h5>
-            <p>Placeholder Paragraph</p>
+            <p>{item.info}</p>
           </div>
         );
       })}

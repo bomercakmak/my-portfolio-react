@@ -8,15 +8,16 @@ const allCategories = ['All', ...new Set(projects.map(item => item.category))]
 
 
 function ProjectsPage() {
-    const [categories, setCategories] = useState(allCategories)
-    const [menuItems,setMenuItems] = useState(projects)
+  let listedProjects = projects.sort((a, b) => b.id - a.id);
 
+  const [categories, setCategories] = useState(allCategories)
+    const [menuItems,setMenuItems] = useState(listedProjects)
     const filter = (category) => {
       if(category === 'All'){
-        setMenuItems(projects);
+        setMenuItems(listedProjects);
         return
       }
-        const filteredData = projects.filter((item) =>{
+        const filteredData = listedProjects.filter((item) =>{
           return item.category === category
         })
         setMenuItems(filteredData)
