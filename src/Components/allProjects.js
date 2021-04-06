@@ -1,10 +1,14 @@
 import burger from '../img/portImages/ezgif.com-gif-maker (1).gif'
-import rockPaperScissors from '../img/portImages/ezgif.com-gif-maker.gif'
+import rockPaperScissors from '../img/portImages/rockPaper.gif'
 import searchUsersGitHub from '../img/portImages/Search-Users-GitHub-REST-API-gif.gif'
 import taskManager from '../img/portImages/Task-Manager (1).gif'
 import node from '../img/portImages/node2.jpeg'
 import aspNet from '../img/portImages/asp-net-and-sql-developer-salary.png'
 import chatApp from '../img/portImages/chatApp.gif'
+import covid19 from '../img/portImages/covid19.gif'
+import youtubeMp3Mp4 from '../img/portImages/youtubeMp3-Mp4.gif'
+import employeeManagement from '../img/portImages/employeeManagement.gif'
+import myMovies from '../img/portImages/myMovies.gif'
 
 
 const projects = [
@@ -48,7 +52,7 @@ const projects = [
         link2: '',
         icon1: 'SOURCE \n CODE',
         icon2: '',
-        image: taskManager,
+        image: myMovies,
         title: 'My Movies React JS',
         info:"HTML5, CSS3, Bootstrap, JavaScript, JSON Server REST API, React JS, React Router,"
     },
@@ -70,7 +74,7 @@ const projects = [
         link2: 'https://bomercakmak-employee-management-system.netlify.app/',
         icon1: 'SOURCE \n CODE',
         icon2: 'LIVE \n WEBSITE',
-        image: taskManager,
+        image: employeeManagement,
         title: 'Employee Management System React JS',
         info:"HTML5, CSS3, JavaScript, Web Storage API, React JS"
     },
@@ -81,7 +85,7 @@ const projects = [
         link2: 'https://bomercakmak-youtube-mp3-mp4-downloader.netlify.app/',
         icon1: 'SOURCE \n CODE',
         icon2: 'LIVE \n WEBSITE',
-        image: taskManager,
+        image: youtubeMp3Mp4,
         title: 'Youtube MP4/MP3 Downloader Converter React JS',
         info:"HTML5, CSS3, JavaScript, React JS"
     },
@@ -125,7 +129,7 @@ const projects = [
         link2: 'https://bomercakmak-covid-19-tracker.netlify.app/',
         icon1: 'SOURCE \n CODE',
         icon2: 'LIVE \n WEBSITE',
-        image: node,
+        image: covid19,
         title: 'COVID-19 Tracker React JS',
         info:"HTML5, CSS3, JavaScript, React JS, Charts.js, Material UI"
     },
