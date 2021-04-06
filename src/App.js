@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import { useState } from "react";
 import "./App.scss";
 import NavBar from "./Components/NavBar";
 import HomePage from "./Pages/HomePage";
@@ -9,23 +9,23 @@ import ContactPage from "./Pages/ContactPage";
 import BlogsPage from "./Pages/BlogsPage";
 import Backdrop from "./Components/Backdrop";
 
-
 function App() {
+ 
+
   const [navToggle, setNavToggle] = useState(false);
   const navClick = () => {
-    setNavToggle(!navToggle)
+    setNavToggle(!navToggle);
   };
 
   const click = () => {
-    console.log("False");
     setNavToggle(false);
-  }
+  };
+
   return (
     <div className="App">
-      
-      <Backdrop navStatus={navToggle} clicked={click}/>
+      <Backdrop navStatus={navToggle} clicked={click} />
       <div className={`sidebar ${navToggle ? "nav-toggle" : ""}`}>
-        <NavBar click={click}/>
+        <NavBar click={click} />
       </div>
       <div className="nav-btn" onClick={navClick}>
         <div className="lines-1"></div>

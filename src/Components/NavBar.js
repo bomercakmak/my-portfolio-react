@@ -36,7 +36,7 @@ function NavBar({click}) {
           </li>
         </ul>
         <footer className="footer">
-           <a href="https://github.com/bomercakmak"> Copyright &copy; {new Date().getFullYear()} {<br/>} Bahadir Omer Cakmak </a>
+           <a href="https://github.com/bomercakmak" target="_blank" rel="noreferrer"> Copyright &copy; {new Date().getFullYear()} {<br/>} Bahadir Omer Cakmak </a>
         </footer>
       </nav>
     </div>

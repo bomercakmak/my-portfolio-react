@@ -21,21 +21,21 @@ function ImageSection() {
         </p>
         <div className="about-details">
           <div className="left-section">
-            <p>Full Name</p>
-            <p>Age</p>
-            <p>Nationality</p>
-            <p>Languages</p>
-            <p>Hobbies</p>
-            <p>Address</p>
+            <p>Full Name:  Bahadir Omer Cakmak</p>
+            <p>Age:  21</p>
+            <p>Nationality:  Turkish</p>
+            <p>Languages:  Turkish, English, German, Azerbaijani</p>
+            <p>Hobbies:  Table Tennis, Play Chess, Hiking</p>
+            <p>Address:  Bonn Germany</p>
           </div>
-          <div className="right-section">
+          {/* <div className="right-section">
             <p>: Bahadir Omer Cakmak</p>
             <p>: 21</p>
             <p>: Turkish</p>
             <p>: Turkish, English, German, Azerbaijani</p>
             <p>: Table Tennis, Play Chess, Hiking</p>
             <p>: Bonn Germany</p>
-          </div>
+          </div> */}
         </div>
        <a href={cv} download="CV-Bahadir-Omer-Cakmak" ><button className="button">Download My CV</button></a> 
       </div>
