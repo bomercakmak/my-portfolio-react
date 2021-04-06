@@ -4,11 +4,18 @@ import phone from "../img/phone.svg";
 import email from "../img/emailme.svg";
 import location from "../img/location.svg";
 import Title from "../Components/Title"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faGithub,
+  faLinkedin,
+  faWhatsapp,
+} from "@fortawesome/free-brands-svg-icons";
 function ContactPage() {
   return (
     <div>
         <div className="title">
-        <Title title={"Contact To Me"} span={"Contact To Me"}/>
+        <Title title={"Contact"} span={"Contact"}/>
         </div>
       <div className="ContactPage">
         <div className="map-sect">
@@ -26,23 +33,35 @@ function ContactPage() {
           <ContactItem
             icon={phone}
             text1={"+48 517 220 852"}
-            text2={"+213 1232 2132"}
+           
             title="Phone"
           />
           <ContactItem
             icon={email}
-            text1={"bahadiromercakmak@gmail.com"}
-            text2={"You can send me an email."}
+            text1={"bahadir0646@gmail.com"}
             title="Email"
           />
           <ContactItem
             icon={location}
-            text1={"Bonn Germany"}
-            text2={"+213 1232 2132"}
+            text1={"Germany"}
             title="Address"
           />
         </div>
       </div>
+      <div className="icons">
+          <a className="icon-holder" href="https://github.com/bomercakmak" target="_blank" rel="noreferrer">
+            <FontAwesomeIcon icon={faGithub} className="icon gh"/>
+          </a>
+          <a className="icon-holder" href="https://www.linkedin.com/in/bahadir-omer-cakmak-4b4036204/" target="_blank" rel="noreferrer">
+            <FontAwesomeIcon icon={faLinkedin} className="icon lk"/>
+          </a>
+          <a className="icon-holder" href="https://wa.me/+48517220852" target="_blank" rel="noreferrer">
+            <FontAwesomeIcon icon={faWhatsapp} className="icon wh"/>
+          </a>
+          <a className="icon-holder" href="https://www.facebook.com/profile.php?id=100007726066142" target="_blank" rel="noreferrer">
+            <FontAwesomeIcon icon={faFacebook} className="icon fb"/>
+          </a>
+        </div>
     </div>
   );
 }

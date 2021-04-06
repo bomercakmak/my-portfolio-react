@@ -19,11 +19,12 @@
       font-size: 2rem;
     }
     .about-text {
+      text-align: justify;
       padding: 0.95rem 0;
     }
   }
   @media screen and (max-width:1400px){
-      flex-direction:column;
+    flex-direction:column;
       .about-info{
         margin-left:0;
         margin-top:1rem;

@@ -9,6 +9,7 @@
         background-color: #191D2B;
         padding:2rem 0;
         .right-items{
+            margin-top: 1rem;
             margin-left: 2rem;
         }
         img{
@@ -28,7 +29,7 @@
 .ContactPage{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
     @media screen and (max-width:1270px){
     grid-template-columns: repeat(1,1fr);
     .map-sect{

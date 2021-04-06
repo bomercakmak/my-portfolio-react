@@ -1,6 +1,5 @@
 import React from "react";
 
-
 function MenuItems({ menuItems }) {
   return (
     <div className="projects">
@@ -12,17 +11,26 @@ function MenuItems({ menuItems }) {
               <ul className="hover-items">
                 <li>
                   <div className="aDiv">
-                  <a href={item.link1}>{item.icon1}</a>
+                    <a href={item.link1} target="_blank" rel="noreferrer">
+                      {item.icon1}{" "}
+                    </a>
                   </div>
-                  {item.icon2 === "" ? null : (<div className="aDiv">
-                  <a href={item.link2}>{item.icon2}</a>
-                  </div>) } 
+                  {item.icon2 === "" ? null : (
+                    <div className="aDiv">
+                      <a href={item.link2} target="_blank" rel="noreferrer">
+                        {item.icon2}
+                      </a>
+                    </div>
+                  )}
                 </li>
               </ul>
             </div>
-            <h5>
-                {item.title}
-            </h5>
+
+            <a href={item.link1} target="_blank" rel="noreferrer">
+              {" "}
+              <h5>{item.title}</h5>
+            </a>
+
             <p>{item.info}</p>
           </div>
         );
