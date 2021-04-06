@@ -6,6 +6,7 @@ import {
   faLinkedin,
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
+import Typical from "react-typical"
 
 function HomePage() {
   return (
@@ -13,7 +14,11 @@ function HomePage() {
       <header className="hero">
         <h1 className="hero-text">
           Hi, I am
-          <span> Bahadir Omer Cakmak</span>
+          
+          <span> <Typical 
+          loop={Infinity}
+          steps={['Bahadir Omer Cakmak',2000, 'Web Developer',2000 ,'Computer Engineering Student',2000]}
+          /></span>
         </h1>
         <p className="h-sub-text">
          Computer Engineering student. Especially specialized in Web Technologies Engineering such as HTML5, CSS, Bootstrap, JavaScript, Node.js, React, Redux, Next.js
