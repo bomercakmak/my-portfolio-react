@@ -5,6 +5,7 @@ import {
   faGithub,
   faLinkedin,
   faWhatsapp,
+
 } from "@fortawesome/free-brands-svg-icons";
 import Typical from "react-typical"
 
@@ -15,7 +16,8 @@ function HomePage() {
         <h1 className="hero-text">
           Hi, I am
           
-          <span> <Typical 
+          <span> 
+          <Typical 
           loop={Infinity}
           steps={['Bahadir Omer Cakmak',2000, 'Web Developer',2000 ,'Computer Engineering Student',2000]}
           /></span>

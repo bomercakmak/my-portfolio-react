@@ -8,6 +8,7 @@ import ProjectsPage from "./Pages/ProjectsPage";
 import ContactPage from "./Pages/ContactPage";
 import BlogsPage from "./Pages/BlogsPage";
 import Backdrop from "./Components/Backdrop";
+import Experience from "./Pages/Experience";
 
 function App() {
  
@@ -43,6 +44,9 @@ function App() {
             </Route>
             <Route path="/projects" exact>
               <ProjectsPage />
+            </Route>
+            <Route path="/experience" exact>
+              <Experience />
             </Route>
             <Route path="/blogs" exact>
               <BlogsPage />

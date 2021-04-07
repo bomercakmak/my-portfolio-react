@@ -25,6 +25,11 @@ function NavBar({click}) {
             </NavLink>
           </li>
           <li className="nav-item">
+            <NavLink to="/experience" exact activeClassName="active">
+            Experience
+            </NavLink>
+          </li>
+          <li className="nav-item">
             <NavLink to="/blogs" exact activeClassName="active">
               Blogs
             </NavLink>
