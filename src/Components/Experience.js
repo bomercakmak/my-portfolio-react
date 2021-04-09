@@ -37,24 +37,16 @@ import "../styles/experience.scss";
                     
                     </strong>
                     <br /> */}
-                    <strong>Technology:</strong> Wordpress, Shopify, BigCommerce, Adobe Photoshop, Adobe Premiere Pro, DaVinci Resolve and Microsoft Office 365
+                    <strong>Technology:</strong> {tech}
                     <br />
-                    <strong>Duration:</strong> August 2018 - June 2019
+                    <strong>Duration:</strong> {duration}
                     <br />
-                    <strong>Location:</strong> Cologne / Germany
+                    <strong>Location:</strong> {location}
                     <br />
                     <p className="description">
                       {" "}
                        <strong> Description: </strong>
-                      Designed and executed global social media selling strategy
-                      across 125,000 followers on Store's Website, Amazon, Ebay,
-                      Etsy, Instagram, and Facebook. Regularly used technologies
-                      to sell product on store website; Wordpress, Shopify,
-                      BigCommerce, Google Analytics, Semrush and GoDaddy.
-                      Technologies used regularly to create social media posts,
-                      videos and blogs: Adobe Photoshop, Adobe Premiere Pro,
-                      Final Cut Pro, DaVinci Resolve, Microsoft Office 365 and
-                      Canva.
+                      {description}
                     </p>
                   </Card.Text>
                 </div>
