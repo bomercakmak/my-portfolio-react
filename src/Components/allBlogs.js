@@ -4,7 +4,7 @@ const blogs = [
     {
         id: 1,
         image: blog5,
-        title: 'I have not added my blogs yet. I am working for useful blogs.',
+        title: 'I have not added my blogs yet. I am working on useful blogs.',
         link: '',
         date : '21',
         month: 'Mar',

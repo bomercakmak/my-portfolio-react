@@ -30,11 +30,11 @@
                 font-family: inherit;
                 text-decoration: none;
                 font-size: 1.6rem;
-                padding-bottom: 2rem;
                 transition: all .4s ease-in-out;
-
+                cursor: pointer;
                 &:hover{
                     color:#037FFF;
+                    
                    
                 }
             }

@@ -1,24 +1,44 @@
 .img-resize {
     height: 70%;
-    width: 12%;
+    width: 11%;
   }
   
   .style {
     font-size: 20px;
   }
+  @media screen and (max-width:600px){
+     .style {
+    font-size:1rem;
+    }
+    .exp-title{
+    font-size:1.5rem;
+    }
+    .img-resize{
+    width: 32%;
+
+    }
+  }
   
   .jumbo-style {
-    background-image: linear-gradient(-225deg, #037FFF 0%, #015db9 48%, #283fa8 100%);
+    background-image: linear-gradient(-225deg,  #0050FF 0%, #00eeffa8 100%);
   }
   
   .body-title-style {
     font-size: 25px;
     font-weight: 800;
+
   }
+
   .experience-card{
     background-color:white;
     color: #1A1D2A;
   }
   .description{
+    margin: 0;
+    padding:0;
     text-align:justify;
+  }
+  .exp-text{
+    padding:0;
+    margin: 0;
   }

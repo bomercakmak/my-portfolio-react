@@ -14,9 +14,9 @@ function BlogsPage() {
             <div className="blog" key={blog.id}>
               <div className="blog-content">
                 <img src={blog.image} alt="" />
-                <a href={blog.link} className="blog-link">
+                <p href={blog.link} className="blog-link">
                   {blog.title}
-                </a>
+                </p>
                 <div className="date-icon"></div>
               </div>
             </div>

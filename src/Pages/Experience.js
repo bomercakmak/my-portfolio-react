@@ -11,7 +11,7 @@ function Experience() {
         <Title title={"Experience"} span={"Experience"} />
         <ExperienceComponent
           img={mibgate}
-          title="Social Media &amp; E-Commerce Manager"
+          title="Software Engineer Intern"
           tech="HTML5, CSS3, JavaScript, C#, Python, Node.js, React, Redux, Express, MongoDB"
           duration="July 2020 - October 2020"
           location="Düsseldorf / Germany"
@@ -24,13 +24,11 @@ function Experience() {
         />
         <ExperienceComponent
           img={anyWork}
-          title="Software Engineering Intern"
+          title="Software Engineer Intern"
           tech="HTML5, CSS3, JavaScript, C#, ASP.NET"
           duration="July 2019 - October 2019"
           location="Düsseldorf / Germany"
-          description="The Computer trainer can achieve to applications development, projects and website development. Trainer can work as a part of a team with cooperation.
-          Trainer can be able to Object Oriented Programming in Java and C#, Applications Development, Front-end Development, Database development and checking, 
-         Monitoring international activities and working as a team member to software development and project development.
+          description="The trainee can achieve to applications development, projects and website development. Trainer can work as a part of a team with cooperation. Trainee can be able to Object Oriented Programming in Java and C#, Applications Development, Front-end Development, Database development. Monitoring international activities and working as a team member to software development and project development.
          "
         />
         <ExperienceComponent

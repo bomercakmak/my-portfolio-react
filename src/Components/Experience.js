@@ -5,7 +5,7 @@ import Card from "react-bootstrap/Card";
 import Tilt from "react-tilt";
 import "../styles/experience.scss";
 
-  function Experience({img,title,tech,duration,location,description}) {
+function Experience({ img, title, tech, duration, location, description }) {
   return (
     <div id="experience">
       <h1 className="pt-3 text-center font-details-b pb-3"> </h1>
@@ -26,14 +26,14 @@ import "../styles/experience.scss";
               </Card.Header>
               <Card.Body className="d-flex justify-content-center flex-column">
                 <div>
-                  <Card.Title className="text-center">
-                  {title}
+                  <Card.Title className="text-center exp-title">
+                    {title}
                   </Card.Title>
                 </div>
                 <div>
-                  <Card.Text className="text-center style">
-                    {/* <strong className="body-title-style ">
-                    
+               
+                  <Card.Text className="text-center exp-text">
+                                {/* <strong className="body-title-style ">
                     </strong>
                     <br /> */}
                     <strong>Technology:</strong> {tech}
@@ -41,12 +41,10 @@ import "../styles/experience.scss";
                     <strong>Duration:</strong> {duration}
                     <br />
                     <strong>Location:</strong> {location}
-                    <br />
-                    <p className="description">
-                      {" "}
-                       <strong> Description: </strong>
-                      {description}
-                    </p>
+                  </Card.Text>
+                  <Card.Text className="description">
+                  <strong> Description: </strong>
+                    {description}
                   </Card.Text>
                 </div>
               </Card.Body>
