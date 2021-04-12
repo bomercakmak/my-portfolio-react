@@ -3,13 +3,12 @@ import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Card from "react-bootstrap/Card";
 import Tilt from "react-tilt";
-import hereMood from "../img/experience/Here.png";
 import "../styles/experience.scss";
 
   function Experience({img,title,tech,duration,location,description}) {
   return (
     <div id="experience">
-      <h1 className="pt-3 text-center font-details-b pb-3"></h1>
+      <h1 className="pt-3 text-center font-details-b pb-3"> </h1>
       <Jumbotron className="jumbo-style">
         <Container>
           <Tilt options={{ max: 10 }}>

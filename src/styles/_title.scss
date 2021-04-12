@@ -4,7 +4,7 @@
     color:white;
     position: relative;
     margin-top: 2rem;
-    padding-bottom:1rem;
+    padding-bottom:.3rem;
     letter-spacing:2px;
     &::before{
         content:"";
@@ -30,11 +30,21 @@
     h3{
         font-size:3rem !important;
     }
+    @media screen and (max-width:600px){
+        h3{
+            font-size:2.5rem !important;
+        }
+    }
     span{
         position: absolute;
-        top:25%;
+        top:23%;
         left:0;
         font-size:3.8rem;
         opacity:0.08;
+    }
+    @media screen and (max-width:600px){
+        span{
+            font-size:2.9rem;
+        }
     }
 }
