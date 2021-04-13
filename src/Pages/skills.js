@@ -2,7 +2,7 @@ import React from "react";
 import {Card , CardDeck, Image, Row,Col} from "react-bootstrap";
 import { skills } from "./skills-data";
 
-import "../styles/skills.style.css";
+import "../styles/skills.scss";
 
 const Skills = () => {
   return (

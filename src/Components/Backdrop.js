@@ -1,4 +1,4 @@
-import "../styles/Backdrop.css";
+import "../styles/Backdrop.scss";
 
 const Backdrop = ({navStatus,clicked}) => {
 

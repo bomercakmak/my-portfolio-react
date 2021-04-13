@@ -43,7 +43,7 @@ function ContactPage() {
           />
           <ContactItem
             icon={location}
-            text1={"Germany"}
+            text1={"Bonn, Germany"}
             title="Address"
           />
         </div>

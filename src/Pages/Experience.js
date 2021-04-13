@@ -14,7 +14,7 @@ function Experience() {
           title="Software Engineer Intern"
           tech="HTML5, CSS3, JavaScript, C#, Python, Node.js, React, Redux, Express, MongoDB"
           duration="July 2020 - October 2020"
-          location="Düsseldorf / Germany"
+          location="Düsseldorf, Germany"
           description="Our intern Bahadır Omer Cakmak worked based on Web development. 
           He used recent and industry wide technologies that are popularly used in the software engineering and web development community thoroughly.
            He has expanded his programming skills by working hard daily on real life programming challenges. He has given various speeches at the daily
@@ -27,7 +27,7 @@ function Experience() {
           title="Software Engineer Intern"
           tech="HTML5, CSS3, JavaScript, C#, ASP.NET"
           duration="July 2019 - October 2019"
-          location="Düsseldorf / Germany"
+          location="Düsseldorf, Germany"
           description="The trainee can achieve to applications development, projects and website development. Trainer can work as a part of a team with cooperation. Trainee can be able to Object Oriented Programming in Java and C#, Applications Development, Front-end Development, Database development. Monitoring international activities and working as a team member to software development and project development.
          "
         />
@@ -36,7 +36,7 @@ function Experience() {
           title="Social Media &amp; E-Commerce Manager"
           tech="Wordpress, Shopify, BigCommerce, Adobe Photoshop, Adobe Premiere Pro, DaVinci Resolve and Microsoft Office 365"
           duration="August 2018 - June 2019"
-          location="Cologne / Germany"
+          location="Cologne, Germany"
           description="Designed and executed global social media selling strategy
           across 125,000 followers on Store's Website, Amazon, Ebay,
           Etsy, Instagram, and Facebook. Regularly used technologies

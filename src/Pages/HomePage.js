@@ -5,6 +5,7 @@ import {
   faGithub,
   faLinkedin,
   faWhatsapp,
+  
 
 } from "@fortawesome/free-brands-svg-icons";
 import Typical from "react-typical"
@@ -23,7 +24,7 @@ function HomePage() {
           /></span>
         </h1>
         <p className="h-sub-text">
-         Computer Engineering student. Especially specialized in Web Technologies Engineering such as HTML5, CSS, Bootstrap, JavaScript, Node.js, React, Redux, Next.js
+         Computer Engineering Student. Specialized in Web Technologies Engineering such as HTML5, CSS3, Bootstrap, JavaScript, Node.js, React, Redux, Next.js
         </p>
         <div className="icons">
           <a className="icon-holder" href="https://github.com/bomercakmak" target="_blank" rel="noreferrer">
@@ -32,6 +33,7 @@ function HomePage() {
           <a className="icon-holder" href="https://www.linkedin.com/in/bahadir-omer-cakmak-4b4036204/" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faLinkedin} className="icon lk"/>
           </a>
+   
           <a className="icon-holder" href="https://wa.me/+48517220852" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faWhatsapp} className="icon wh"/>
           </a>
