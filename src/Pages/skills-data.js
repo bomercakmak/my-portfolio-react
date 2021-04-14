@@ -19,6 +19,9 @@ import L_JAVASCRIPT from "../assets/img/skills/javascript.svg";
 import L_TYPESCRIPT from "../assets/img/skills/typescript.svg";
 import L_NETLIFY from "../assets/img/skills/netlify.svg";
 import L_PYTHON from "../assets/img/skills/python.svg";
+import L_NEXT from "../assets/img/skills/next.svg";
+
+
 export const skills = {
   frontend: [
     {
@@ -52,16 +55,17 @@ export const skills = {
       skillName: "Bootstrap",
     },
     {
+      link: "https://material-ui.com/",
+      imgAltText: "Material-UI",
+      imgSrc: L_MATERIALUI,
+      skillName: "Material-UI",
+    },
+    
+    {
       link: "https://reactjs.org/",
       imgAltText: "React JS",
       imgSrc: L_REACT,
       skillName: "React JS",
-    },
-    {
-      link: "https://redux.js.org/",
-      imgAltText: "Redux",
-      imgSrc: L_REDUX,
-      skillName: "Redux",
     },
     {
       link: "https://reacttraining.com/react-router/",
@@ -70,17 +74,25 @@ export const skills = {
       skillName: "React Router",
     },
     {
-      link: "https://material-ui.com/",
-      imgAltText: "Material-UI",
-      imgSrc: L_MATERIALUI,
-      skillName: "Material-UI",
-    },
-    {
       link: "https://react-bootstrap.github.io/",
       imgAltText: "React Bootstrap",
       imgSrc: L_REACT_BOOTSTRAP,
       skillName: "React Bootstrap",
     },
+    {
+      link: "https://redux.js.org/",
+      imgAltText: "Redux",
+      imgSrc: L_REDUX,
+      skillName: "Redux",
+    },
+    {
+      link: "https://nextjs.org/",
+      imgAltText: "Next JS",
+      imgSrc: L_NEXT,
+      skillName: "Next JS",
+    },
+    
+    
   ],
 
   backend: [
@@ -120,6 +132,26 @@ export const skills = {
   programmingLanguages: [
     {
       link: "https://www.javascript.com/",
+      imgAltText: "JavaScript",
+      imgSrc: L_JAVASCRIPT,
+      skillName: "JavaScript",
+    },
+    {
+      link: "https://www.typescriptlang.org/",
+      imgAltText: "TypeScript",
+      imgSrc: L_TYPESCRIPT,
+      skillName: "TypeScript",
+    },
+    {
+      link: "https://www.python.org/",
+      imgAltText: "Python",
+      imgSrc: L_PYTHON,
+      skillName: "Python",
+    },
+  ],
+  graphicDesign: [
+    {
+      link: "https://www.figma.com/",
       imgAltText: "JavaScript",
       imgSrc: L_JAVASCRIPT,
       skillName: "JavaScript",
