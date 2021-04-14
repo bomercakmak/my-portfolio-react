@@ -20,6 +20,12 @@ import L_TYPESCRIPT from "../assets/img/skills/typescript.svg";
 import L_NETLIFY from "../assets/img/skills/netlify.svg";
 import L_PYTHON from "../assets/img/skills/python.svg";
 import L_NEXT from "../assets/img/skills/next.svg";
+import L_FIGMA from "../assets/img/skills/figma.svg";
+import L_PS from "../assets/img/skills/adobeps.svg";
+import L_AE from "../assets/img/skills/adobeae.svg";
+import L_WP from "../assets/img/skills/wordpress.svg";
+import L_SHOPIFY from "../assets/img/skills/shopify.svg";
+import L_BC from "../assets/img/skills/bigcommerce.svg";
 
 
 export const skills = {
@@ -152,21 +158,41 @@ export const skills = {
   graphicDesign: [
     {
       link: "https://www.figma.com/",
-      imgAltText: "JavaScript",
-      imgSrc: L_JAVASCRIPT,
-      skillName: "JavaScript",
+      imgAltText: "Figma",
+      imgSrc: L_FIGMA,
+      skillName: "Figma",
     },
     {
-      link: "https://www.typescriptlang.org/",
-      imgAltText: "TypeScript",
-      imgSrc: L_TYPESCRIPT,
-      skillName: "TypeScript",
+      link: "https://www.adobe.com/products/photoshop.html",
+      imgAltText: "Adobe Photoshop",
+      imgSrc: L_PS,
+      skillName: "Adobe Photoshop",
     },
     {
-      link: "https://www.python.org/",
-      imgAltText: "Python",
-      imgSrc: L_PYTHON,
-      skillName: "Python",
+      link: "https://www.adobe.com/products/aftereffects.html",
+      imgAltText: "Adobe After Effects",
+      imgSrc: L_AE,
+      skillName: "Adobe After Effects",
+    },
+  ],
+  ecommerce: [
+    {
+      link: "https://wordpress.org/",
+      imgAltText: "WordPress",
+      imgSrc: L_WP,
+      skillName: "WordPress",
+    },
+    {
+      link: "https://www.shopify.com/",
+      imgAltText: "Shopify",
+      imgSrc: L_SHOPIFY,
+      skillName: "Shopify",
+    },
+    {
+      link: "https://www.bigcommerce.com/",
+      imgAltText: "BigCommerce",
+      imgSrc: L_BC,
+      skillName: "BigCommerce",
     },
   ],
   databases: [

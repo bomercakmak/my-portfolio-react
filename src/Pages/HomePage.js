@@ -7,7 +7,6 @@ import {
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import Typical from "react-typical";
-import email from "../img/emailme.svg";
 
 function HomePage() {
   return (

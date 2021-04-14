@@ -7,9 +7,9 @@ import "../styles/skills.scss";
 const Skills = () => {
   return (
     <div className="pt-3 pb-3" id="skills">
-      <h1 className="text-center font-details-b pb-4">
+      {/* <h1 className="text-center font-details-b pb-4">
         Software Engineering Skills
-      </h1>
+      </h1> */}
       <CardDeck className="d-flex justify-content-around">
         <Row className="d-flex ">
           {/* Frontend */}
@@ -18,7 +18,7 @@ const Skills = () => {
               <Card.Body>
                 {/* Frontend */}
                 <Card.Title className="text-center white card-title">
-                  Frontend
+                  Frontend Development
                 </Card.Title>
                 <hr />
                 <Card.Text className="card-text  white d-flex justify-content-start flex-column">
@@ -52,7 +52,7 @@ const Skills = () => {
             <Card className="focus mt-2 mb-2">
               <Card.Body>
                 <Card.Title className="text-center white  card-title">
-                  Backend
+                  Backend Development
                 </Card.Title>
                 <hr />
                 <Card.Text className="card-text white d-flex justify-content-start flex-column">
@@ -211,7 +211,7 @@ const Skills = () => {
                 </Card.Title>
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  {skills.hostingPlatforms.map((skill, index) => (
+                  {skills.ecommerce.map((skill, index) => (
                     <span className="p-2" key={index}>
                       <a
                         className="text-white tech-name text-decoration-none"
