@@ -6,8 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 # To See My Portfolio Website
 [Try It Out Now!](https://cakmak.netlify.app/)
 
-# Introduction video of my application 
+# Introduction Video of My Portfolio Website
 
+<a href="https://cakmak.netlify.app/"><img src="./src/img/my-website.gif" title="my-website.gif"></a>
 
 ## Available Scripts
 
