@@ -27,7 +27,8 @@ function ProjectsPage() {
   return (
     <div className="ProjectPage">
       <div className="title">
-        <Title title={"Projects"} span={"Projects"} />
+      <Title title={"Projects"} span={"Projects"} />
+      <p style={{marginTop:"-1.5rem",fontSize:"90%"}}>* You can hover or click on the projects to see Live Website or Source Code for project.</p>
       </div>
       <div className="projects-data">
         <Categories filter={filter} categories={categories}/>

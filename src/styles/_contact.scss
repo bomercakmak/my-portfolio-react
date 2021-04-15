@@ -28,6 +28,7 @@
 }
 .ContactPage{
     display: grid;
+    margin-top:3rem;
     grid-template-columns: repeat(2,1fr);
     margin-bottom: 3rem;
     @media screen and (max-width:1270px){
@@ -60,8 +61,4 @@
     justify-content: space-between;
     flex-direction: column;
 
-}
-
-.title{
-    margin-bottom: 4rem;
 }

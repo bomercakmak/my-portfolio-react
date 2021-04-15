@@ -8,7 +8,7 @@ import "../styles/experience.scss";
 function Experience({ img, title, tech, duration, location, description }) {
   return (
     <div id="experience">
-      <h1 className="pt-3 text-center font-details-b pb-3"> </h1>
+      <br/>
       <Jumbotron className="jumbo-style">
         <Container>
           <Tilt options={{ max: 10 }}>

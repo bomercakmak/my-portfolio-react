@@ -9,6 +9,7 @@ import covid19 from '../img/portImages/covid19.gif'
 import youtubeMp3Mp4 from '../img/portImages/youtubeMp3-Mp4.gif'
 import employeeManagement from '../img/portImages/employeeManagement.gif'
 import myMovies from '../img/portImages/myMovies.gif'
+import myPort from '../img/portImages/my-port.gif'
 
 
 const projects = [
@@ -132,6 +133,17 @@ const projects = [
         image: covid19,
         title: 'COVID-19 Tracker React JS',
         info:"HTML5, CSS3, JavaScript, React JS, Charts.js, Material UI"
+    },
+    {
+        id: 12,
+        category: "React JS",
+        link1: 'https://github.com/bomercakmak/my-portfolio-react',
+        link2: 'https://cakmak.netlify.app/',
+        icon1: 'SOURCE \n CODE',
+        icon2: 'LIVE \n WEBSITE',
+        image: myPort,
+        title: 'My Portfolio React JS',
+        info:"HTML5, SCSS, JavaScript, React JS, React Bootstrap, React Router"
     },
    
 ]

@@ -30,9 +30,9 @@ function NavBar({click}) {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/blogs" exact activeClassName="active">
+            {/* <NavLink to="/blogs" exact activeClassName="active">
               Blogs
-            </NavLink>
+            </NavLink> */}
           </li>
           <li className="nav-item">
             <NavLink to="/contact" exact activeClassName="active">
