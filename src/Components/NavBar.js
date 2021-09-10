@@ -1,7 +1,7 @@
 import React from "react";
-import avatar from "../img/avatar.jpg";
+import avatar from "../img/avatar.png";
 import { NavLink } from "react-router-dom";
-function NavBar({click}) {
+function NavBar({ click }) {
   return (
     <div className="NavBar">
       <nav className="nav">
@@ -26,7 +26,7 @@ function NavBar({click}) {
           </li>
           <li className="nav-item">
             <NavLink to="/experience" exact activeClassName="active">
-            Experience
+              Experience
             </NavLink>
           </li>
           <li className="nav-item">
@@ -41,7 +41,15 @@ function NavBar({click}) {
           </li>
         </ul>
         <footer className="footer">
-           <a href="https://github.com/bomercakmak" target="_blank" rel="noreferrer"> Copyright &copy; {new Date().getFullYear()} {<br/>} Bahadir Omer Cakmak </a>
+          <a
+            href="https://github.com/bomercakmak"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            Copyright &copy; {new Date().getFullYear()} {<br />} Bahadir Omer
+            Cakmak{" "}
+          </a>
         </footer>
       </nav>
     </div>

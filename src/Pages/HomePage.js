@@ -20,18 +20,19 @@ function HomePage() {
               steps={[
                 "Bahadir Omer Cakmak",
                 2000,
-                "Web Developer",
+                "Full Stack Web Developer",
                 2000,
-                "Computer Engineering Student",
+                "Software Engineer",
                 2000,
               ]}
             />
           </span>
         </h1>
         <p className="h-sub-text">
-          I am Computer Engineering
-          student. Specialized in Web Technologies Engineering such as HTML5,
-          CSS3, Bootstrap, JavaScript, Node.js, React, Redux, Next.js, Firebase.
+          I am a Software Engineer with more than 3 years of experience. I
+          frequently use popular web technologies including, but not limited to
+          HTML5, CSS, Bootstrap, JavaScript, PHP, Node.js, React, Redux,
+          Next.js, Firebase.
         </p>
         <div className="icons">
           <a
