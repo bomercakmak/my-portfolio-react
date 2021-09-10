@@ -21,7 +21,7 @@ function ContactPage() {
         <div className="map-sect">
           <iframe
             title="Map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80860.06794875655!2d7.0472603880528615!3d50.70366473933862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bee19f7ccbda49%3A0x86dbf8c6685c9617!2sBonn!5e0!3m2!1sde!2sde!4v1618515611230!5m2!1sde!2sde"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d156388.3543850417!2d20.921112620236702!3d52.23306532087844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc669a869f01%3A0x72f0be2a88ead3fc!2sVar%C5%9Fova%2C%20Polonya!5e0!3m2!1str!2sde!4v1631288236562!5m2!1str!2sde"
             width="600"
             height="450"
             style={{ border: 0 }}
@@ -38,7 +38,7 @@ function ContactPage() {
           />
           <ContactItem
             icon={location}
-            text1={"Bonn, Germany"}
+            text1={"Warsaw, Poland"}
             title="Address"
           />
         </div>
