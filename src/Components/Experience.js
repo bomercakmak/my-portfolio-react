@@ -8,7 +8,7 @@ import "../styles/experience.scss";
 function Experience({ img, title, tech, duration, location, description }) {
   return (
     <div id="experience">
-      <br/>
+      <br />
       <Jumbotron className="jumbo-style">
         <Container>
           <Tilt options={{ max: 10 }}>
@@ -31,9 +31,8 @@ function Experience({ img, title, tech, duration, location, description }) {
                   </Card.Title>
                 </div>
                 <div>
-               
                   <Card.Text className="text-center exp-text">
-                                {/* <strong className="body-title-style ">
+                    {/* <strong className="body-title-style ">
                     </strong>
                     <br /> */}
                     <strong>Technology:</strong> {tech}
@@ -43,7 +42,7 @@ function Experience({ img, title, tech, duration, location, description }) {
                     <strong>Location:</strong> {location}
                   </Card.Text>
                   <Card.Text className="description">
-                  <strong> Description: </strong>
+                    <strong> Description: </strong>
                     {description}
                   </Card.Text>
                 </div>
