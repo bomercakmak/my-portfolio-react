@@ -10,11 +10,13 @@ function MenuItems({ menuItems }) {
               <img src={item.image} alt="" />
               <ul className="hover-items">
                 <li>
-                  <div className="aDiv">
-                    <a href={item.link1} target="_blank" rel="noreferrer">
-                      {item.icon1}{" "}
-                    </a>
-                  </div>
+                  {item.icon1 === "" ? null : (
+                    <div className="aDiv">
+                      <a href={item.link1} target="_blank" rel="noreferrer">
+                        {item.icon1}{" "}
+                      </a>
+                    </div>
+                  )}
                   {item.icon2 === "" ? null : (
                     <div className="aDiv">
                       <a href={item.link2} target="_blank" rel="noreferrer">
@@ -25,8 +27,11 @@ function MenuItems({ menuItems }) {
                 </li>
               </ul>
             </div>
-
-            <a href={item.link1} target="_blank" rel="noreferrer">
+            <a
+              href={item.link1 ? item.link1 : item.link2}
+              target="_blank"
+              rel="noreferrer"
+            >
               {" "}
               <h5>{item.title}</h5>
             </a>
