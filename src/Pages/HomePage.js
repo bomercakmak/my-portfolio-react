@@ -31,8 +31,8 @@ function HomePage() {
         <p className="h-sub-text">
           I am a Software Engineer with more than 3 years of experience. I
           frequently use popular web technologies including, but not limited to
-          HTML5, CSS, Bootstrap, JavaScript, PHP, Node.js, React, Redux,
-          Next.js, Firebase.
+          HTML5, CSS, Bootstrap, JavaScript, TypeScript, PHP, Node.js, React,
+          Redux, Next.js, Firebase.
         </p>
         <div className="icons">
           <a
