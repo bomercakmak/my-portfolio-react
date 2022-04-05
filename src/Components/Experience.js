@@ -39,7 +39,7 @@ function Experience({ img, title, tech, duration, location, description }) {
                     <br />
                     <strong>Duration:</strong> {duration}
                     <br />
-                    <strong>Location:</strong> {location}
+                    {location && <strong>Location:</strong>} {location}
                   </Card.Text>
                   <Card.Text className="description">
                     <strong> Description: </strong>

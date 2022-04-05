@@ -5,11 +5,28 @@ import hereMood from "../img/experience/Here.png";
 import anyWork from "../img/experience/anywork.png";
 import mibgate from "../img/experience/mibgate.png";
 import bcs from "../img/experience/bcs.png";
+import colla from "../img/experience/colla.png";
 function Experience() {
   return (
     <div>
       <div className="title">
         <Title title={"Experience"} span={"Experience"} />
+        <ExperienceComponent
+          img={colla}
+          title="Full Stack Engineer"
+          tech="Using powerful technologies, such as JavaScript, React, Next, Redux, Node.js, in a very specific, complex,
+          and detailed manner; creating high value and efficient performance."
+          duration="October 2021 - Current"
+          description="Working as a Full Stack Engineer for S&P Global, one of the largest business and financial analytics
+          companies in USA and becoming an active member of a cross-functional software development team
+          that specializes in performance improvement. Research, analysis and high-level implementation of some of the latest and most critical web development
+          techniques, such as server-side, client-side, and progressive rendering, including rehydration and parti
+          al hydration; thus, gaining invaluable experience in both theoretical and practical aspects of these
+          techniques. Playing highly significant role in the development of a software with a Micro Front-End architecture by
+          means of using and implementing Micro Front-End features and Microservices. Having a professional experience in the development of single page applications, software engineering
+          and performance improvement; writing clean and understandable code and documentation by using 
+          best practices. Writing comprehensive Unit test for every user story or feature that is being created and implemented."
+        />
         <ExperienceComponent
           img={bcs}
           title="Full Stack Engineer Intern"

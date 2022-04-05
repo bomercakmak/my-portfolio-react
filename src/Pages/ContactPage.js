@@ -21,7 +21,7 @@ function ContactPage() {
         <div className="map-sect">
           <iframe
             title="Map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d156388.3543850417!2d20.921112620236702!3d52.23306532087844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc669a869f01%3A0x72f0be2a88ead3fc!2sVar%C5%9Fova%2C%20Polonya!5e0!3m2!1str!2sde!4v1631288236562!5m2!1str!2sde"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57297.029496971685!2d7.065555461847617!3d50.717420436204556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bee19f7ccbda49%3A0x86dbf8c6685c9617!2sBonn%2C%20Almanya!5e0!3m2!1str!2spl!4v1649064616989!5m2!1str!2spl"
             width="600"
             height="450"
             style={{ border: 0 }}
@@ -30,7 +30,7 @@ function ContactPage() {
           ></iframe>
         </div>
         <div className="contact-sect">
-          <ContactItem icon={phone} text1={"+48 517 220 852"} title="Phone" />
+          <ContactItem icon={phone} text1={"+49 176 62798451"} title="Phone" />
           <ContactItem
             icon={email}
             text1={"bahadir0646@gmail.com"}
@@ -38,7 +38,7 @@ function ContactPage() {
           />
           <ContactItem
             icon={location}
-            text1={"Warsaw, Poland"}
+            text1={"Bonn, Germany"}
             title="Address"
           />
         </div>
@@ -62,7 +62,7 @@ function ContactPage() {
         </a>
         <a
           className="icon-holder"
-          href="https://wa.me/+48517220852"
+          href="https://wa.me/+4917662798451"
           target="_blank"
           rel="noreferrer"
         >

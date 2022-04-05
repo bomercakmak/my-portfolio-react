@@ -31,8 +31,8 @@ function HomePage() {
         <p className="h-sub-text">
           I am a Software Engineer with more than 3 years of experience. I
           frequently use popular web technologies including, but not limited to
-          HTML5, CSS, Bootstrap, JavaScript, TypeScript, PHP, Node.js, React,
-          Redux, Next.js, Firebase.
+          HTML5, CSS, Bootstrap, JavaScript, TypeScript, PHP, Node.js,
+          Express.js, React, Redux, Next.js, MongoDB, Firebase.
         </p>
         <div className="icons">
           <a
@@ -54,7 +54,7 @@ function HomePage() {
 
           <a
             className="icon-holder"
-            href="https://wa.me/+48517220852"
+            href="https://wa.me/+4917662798451"
             target="_blank"
             rel="noreferrer"
           >

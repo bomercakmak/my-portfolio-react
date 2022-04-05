@@ -13,6 +13,8 @@ import myPort from "../img/portImages/my-port.gif";
 import breakout from "../img/portImages/breakout.png";
 import ahsen from "../img/portImages/ahsen.png";
 import salevali from "../img/portImages/salevali.png";
+import home from "../img/portImages/home.png";
+import mementooo from "../img/portImages/mementooo.png";
 
 const projects = [
   {
@@ -168,7 +170,7 @@ const projects = [
     icon2: "LIVE \n WEBSITE",
     image: ahsen,
     title: "Ahsen (OMS) React JS",
-    info: "HTML5, CSS, Canvas, JavaScript, React JS",
+    info: "HTML5, CSS, Canvas, JavaScript, React JS, Redux Toolkit, Firebase",
   },
   {
     id: 15,
@@ -180,6 +182,28 @@ const projects = [
     image: salevali,
     title: "SaleVali React JS",
     info: "HTML5, CSS, JavaScript, React JS, Redux-Saga, Formik, Node.js, LoopBack, MangoDB, Scrum",
+  },
+  {
+    id: 16,
+    category: "React JS",
+    link1: "https://github.com/bomercakmak/UniSocial-Thesis-Project",
+    link2: "https://unisocial.netlify.app",
+    icon1: "SOURCE \n CODE",
+    icon2: "LIVE \n WEBSITE",
+    image: home,
+    title: "UniSocial React JS",
+    info: "HTML5, CSS, Material-UI, JavaScript, React JS, Redux-Saga, Firebase",
+  },
+  {
+    id: 17,
+    category: "MERN Stack",
+    link1: "https://github.com/bomercakmak/Memento-MERN-Stack-Social-Media",
+    link2: "",
+    icon1: "SOURCE \n CODE",
+    icon2: "",
+    image: mementooo,
+    title: "Memento MERN Stack Social Media",
+    info: "HTML5, CSS, Material-UI, JavaScript, React JS, Redux, Node.js, Express, MongoDB, Mongoose",
   },
 ];
 
